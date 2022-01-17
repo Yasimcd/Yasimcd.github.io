@@ -11,7 +11,7 @@ const treasure = (n) =>{
 
   if (n == trea) {
     document.getElementById(n).innerHTML="&#x1f308"
-    document.getElementById("game-board").innerHTML='<img src="treasurebox.png"/>'
+    document.getElementById("game-board").innerHTML='<img src="box.png"/>'
 
   }
   else if (n === bomb) {

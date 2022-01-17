@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://img1.pnghut.com/2/16/4/PDxy9vmnDy/cartoon-treasure-hunting-material-island-art.jpg">
+    <title>Treasure Hunt</title>
+    <link rel="stylesheet" href="treasurehunt.css">
+  </head>
+  <body>
+    <h1>Welcome to treasure hunt game</h1>
+    <h2>How to hunt for the Treasure</h2>
+    <ol class="list-group">
+      <li>Click the boxes to reveal what's on the map</li>
+      <li>If you click on the bomb, you explode</li>
+      <li>If you click on the treasure, you win!!!</li>
+    </ol>
+    <div id="chest">
+    <img src="treasure.png">
+  </div>
+    <table id="game-board">
+      <tr>
+        <td id="1" onclick="treasure(1)">X</td>
+        <td id="2" onclick="treasure(2)">X</td>
+        <td id="3" onclick="treasure(3)">X</td>
+        <td id="4" onclick="treasure(4)">X</td>
+      </tr>
+      <td id="5" onclick="treasure(5)">X</td>
+      <td id="6" onclick="treasure(6)">X</td>
+      <td id="7" onclick="treasure(7)">X</td>
+      <td id="8" onclick="treasure(8)">X</td>
+      <tr>
+        <td id="9" onclick="treasure(9)">X</td>
+        <td id="10" onclick="treasure(10)">X</td>
+        <td id="11" onclick="treasure(11)">X</td>
+        <td id="12" onclick="treasure(12)">X</td>
+      </tr>
+      </table>
+      <button id="but" type="button" onclick="location.reload()">Restart Game</button>
+<footer>Marc Yasim</footer>
+<footer><a href="https://www.goodhousekeeping.com/life/parenting/g32050844/scavenger-hunt-ideas-for-kids/" target="_blank">Other games related to treasure hunting</a>
+</footer>
+<script type="text/javascript" <script src="treasurehunt.js" ></script>
+</script>
+  </body>
+</html>

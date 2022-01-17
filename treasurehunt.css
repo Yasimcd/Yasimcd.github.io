@@ -1,0 +1,65 @@
+body{
+  background-image: url(https://www.hjcnewmedia.com/websiteV3/wp-content/uploads/2020/03/cropped-Treasure-512x410.jpg);
+  background-size: cover;
+  height: 500px;
+  background-attachment: fixed;
+}
+h1{
+  text-align: center;
+  color: black;
+  font-size: 100px;
+}
+h2{
+  text-align: center;
+  font-size: 95px;
+  color: #100959;
+}
+table{
+  margin: 0 auto;
+  border: 2px solid black;
+}
+td{
+  border: 10px dashed black;
+  font-size: 50px;
+  height: 100px;
+  width: 120px;
+text-align: center;
+}
+#chest{
+  text-align: center;
+  padding: 60px;
+}
+img:hover {
+  animation: shaking-effect 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+ol{
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  padding: 70px;
+}
+.list-group{
+  font-size: 65px
+}
+footer {
+  text-align: right;
+  font-size: 40px;
+}
+#but {
+  text-align: center;
+}
+@keyframes shaking-effect {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

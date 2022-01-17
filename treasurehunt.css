@@ -6,7 +6,7 @@ body{
 }
 h1{
   text-align: center;
-  color: black;
+  color: grey;
   font-size: 100px;
 }
 h2{
@@ -16,20 +16,21 @@ h2{
 }
 table{
   margin: 0 auto;
-  border: 2px solid black;
+
 }
 td{
   border: 10px dashed black;
   font-size: 50px;
   height: 100px;
   width: 120px;
-text-align: center;
+  text-align: center;
 }
 #chest{
   text-align: center;
   padding: 60px;
 }
 img:hover {
+
   animation: shaking-effect 1s infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
@@ -49,6 +50,10 @@ footer {
 }
 #but {
   text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 @keyframes shaking-effect {
   0% { transform: translate(1px, 1px) rotate(0deg); }

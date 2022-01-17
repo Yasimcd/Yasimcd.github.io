@@ -2,40 +2,48 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="https://img1.pnghut.com/2/16/4/PDxy9vmnDy/cartoon-treasure-hunting-material-island-art.jpg">
-    <title>Treasure Hunt</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Treasure Hunt Game</title>
     <link rel="stylesheet" href="treasurehunt.css">
   </head>
   <body>
-    <h1>Welcome to treasure hunt game</h1>
-    <h2>How to hunt for the Treasure</h2>
-    <ol class="list-group">
+    <h1>Welcome to Treasure Hunt Game</h1>
+<div class="flex-center">
+  <div >
+  </div>
+  <h2>How to hunt for the Treasure</h2>
+</div>
+  <div class="flex-center">
+    <ol>
       <li>Click the boxes to reveal what's on the map</li>
       <li>If you click on the bomb, you explode</li>
       <li>If you click on the treasure, you win!!!</li>
     </ol>
-    <div id="chest">
-    <img src="treasure.png">
   </div>
+  <div id="chest">
+    <img src="treasure.png" height="300px" width="520px">
+  </div>
+  <div>
     <table id="game-board">
       <tr>
-        <td id="1" onclick="treasure(1)">X</td>
-        <td id="2" onclick="treasure(2)">X</td>
-        <td id="3" onclick="treasure(3)">X</td>
-        <td id="4" onclick="treasure(4)">X</td>
+        <td id="0" onclick="findtreasure(0)"> ? </td>
+        <td id="1" onclick="findtreasure(1)">?</td>
+        <td id="2" onclick="findtreasure(2)">?</td>
+        <td id="3" onclick="findtreasure(3)">?</td>
       </tr>
-      <td id="5" onclick="treasure(5)">X</td>
-      <td id="6" onclick="treasure(6)">X</td>
-      <td id="7" onclick="treasure(7)">X</td>
-      <td id="8" onclick="treasure(8)">X</td>
+      <td id="4" onclick="findtreasure(4)">?</td>
+      <td id="5" onclick="findtreasure(5)">?</td>
+      <td id="6" onclick="findtreasure(6)">?</td>
+      <td id="7" onclick="findtreasure(7)">?</td>
       <tr>
-        <td id="9" onclick="treasure(9)">X</td>
-        <td id="10" onclick="treasure(10)">X</td>
-        <td id="11" onclick="treasure(11)">X</td>
-        <td id="12" onclick="treasure(12)">X</td>
+        <td id="8" onclick="findtreasure(8)">?</td>
+        <td id="9" onclick="findtreasure(9)">?</td>
+        <td id="10" onclick="findtreasure(10)">?</td>
+        <td id="11" onclick="findtreasure(11)">?</td>
       </tr>
       </table>
-      <div id="but">
+    </div>
+      <div id="button-aligment">
         <button id="but" type="button" onclick="location.reload()">Restart Game</button>
       </div>
 
